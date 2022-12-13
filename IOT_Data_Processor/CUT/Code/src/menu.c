@@ -45,7 +45,7 @@ void menu()
 		if ( returnValue == 0 || returnValue ==  EOF)
 		{
 			fflush(stdin);
-			printf("* Invalid input. Please enter valid input\n");
+			printf("* Invalid input. Please enter valid numeric value.\n");
 			printf("⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆⋆\n");
 			break;
 		}
