@@ -1,0 +1,27 @@
+/******************************************************************
+* Ctags 5.9.0
+******************************************************************/
+
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/ezaz/Desktop/IOT Data Logger/CUT/compile/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/50f60b84/
+appendLinkedList	../src/utility.c	/^void appendLinkedList(iotdata **headPointer, iotdata* data)$/;"	f	typeref:typename:void
+avgHumidity	../src/average.c	/^void avgHumidity(iotdata *head)$/;"	f	typeref:typename:void
+avgNO2	../src/average.c	/^void avgNO2(iotdata *head)$/;"	f	typeref:typename:void
+avgPM10	../src/average.c	/^void avgPM10(iotdata *head)$/;"	f	typeref:typename:void
+avgPM25	../src/average.c	/^void avgPM25(iotdata *head)$/;"	f	typeref:typename:void
+avgTemperature	../src/average.c	/^void avgTemperature(iotdata *head)$/;"	f	typeref:typename:void
+display_iotdata	../src/utility.c	/^void display_iotdata(iotdata* ct)$/;"	f	typeref:typename:void
+freeLinkedList	../src/utility.c	/^void freeLinkedList(iotdata** headPointer)$/;"	f	typeref:typename:void
+loadFromFile	../src/utility.c	/^int loadFromFile(const char *fileName, iotdata **headPointer)$/;"	f	typeref:typename:int
+main	../src/main.c	/^int main(int argc, char** argv)$/;"	f	typeref:typename:int
+menu	../src/menu.c	/^void menu()$/;"	f	typeref:typename:void
+printLinkedList	../src/utility.c	/^void printLinkedList(iotdata *ct)$/;"	f	typeref:typename:void
